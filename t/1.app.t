@@ -30,5 +30,6 @@ is( FizzBuzz::fizzbuzz(25),  "Buzz",     "25 => Buzz" 	 );
 is( FizzBuzz::fizzbuzz(30),  "FizzBuzz", "30 => FizzBuzz");
 
 is( FizzBuzz::fizzbuzz(100), "Buzz",     "100 => Buzz"	 );
+is( FizzBuzz::fizzbuzz(101), "101",      "101 => 101"	 );
 
 done_testing();
