@@ -7,7 +7,7 @@ sub fizzbuzz {
 		return "Fizz";
 	}
 
-	elsif ( $number == 5 ) {
+	elsif ( $number % 5 == 0 ) {
 		return "Buzz";
 	}
 
