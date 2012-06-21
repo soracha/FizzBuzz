@@ -1,7 +1,8 @@
 package FizzBuzz;
 
-sub fizzbuzz{
-	return "test";
+sub fizzbuzz {
+	my $number = shift @_;
+	return "$number";
 }
 
 1;
