@@ -3,7 +3,7 @@ package FizzBuzz;
 sub fizzbuzz {
 	my $number = shift @_;
 
-	if ( $number == 3 ) {
+	if ( $number % 3 == 0 ) {
 		return "Fizz";
 	}
 
