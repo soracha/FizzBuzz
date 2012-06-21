@@ -15,6 +15,6 @@ is( FizzBuzz::fizzbuzz(10), "Buzz", "10 => Buzz");
 
 is( FizzBuzz::fizzbuzz(11), "11",   "11 => 11"  );
 is( FizzBuzz::fizzbuzz(12), "Fizz", "12 => Fizz");
-
+is( FizzBuzz::fizzbuzz(13), "13",   "13 => 13"  );
 
 done_testing();
