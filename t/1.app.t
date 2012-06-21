@@ -8,5 +8,6 @@ is( FizzBuzz::fizzbuzz(3), "Fizz", "3 => Fizz");
 is( FizzBuzz::fizzbuzz(4), "4",    "4 => 4"   );
 is( FizzBuzz::fizzbuzz(5), "Buzz", "5 => Buzz");
 is( FizzBuzz::fizzbuzz(6), "Fizz", "6 => Fizz");
+is( FizzBuzz::fizzbuzz(7), "7",    "7 => 7"   );
 
 done_testing();
