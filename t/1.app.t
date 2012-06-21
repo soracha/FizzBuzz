@@ -24,4 +24,6 @@ is( FizzBuzz::fizzbuzz(18), "Fizz",    	"18 => Fizz"    );
 is( FizzBuzz::fizzbuzz(19), "19", 	    "19 => 19"	    );
 is( FizzBuzz::fizzbuzz(20), "Buzz", 	"20 => Buzz"	);
 
+is( FizzBuzz::fizzbuzz(21), "Fizz",    	"21 => Fizz"    );
+
 done_testing();
