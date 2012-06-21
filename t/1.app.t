@@ -2,7 +2,8 @@ use Test::More;
 
 use_ok('FizzBuzz');
 
-is( FizzBuzz::fizzbuzz(1), "1", "1 => 1" );
-is( FizzBuzz::fizzbuzz(2), "2", "2 => 2" );
+is( FizzBuzz::fizzbuzz(1), "1",    "1 => 1"   );
+is( FizzBuzz::fizzbuzz(2), "2",    "2 => 2"   );
+is( FizzBuzz::fizzbuzz(3), "Fizz", "3 => Fizz");
 
 done_testing();
